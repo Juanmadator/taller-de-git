@@ -1,6 +1,9 @@
 <?php
-//Autor: juanmadametor@gmail.com
+//Autor:Juan Manuel Adame Torronteras  <juanmadametor@gmail.com>
+require('HolaMundo.php');
+
 print "Introduce tu nombre";
 $nombre=trim(fgets(STDIN));
-print "Hola {$nombre}\n";
+print new HolaMundo($nombre);
+
  ?>
